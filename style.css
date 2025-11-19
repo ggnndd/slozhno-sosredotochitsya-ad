@@ -4,6 +4,7 @@
   font-size: 18px;
   line-height: 23.4px;
   background-color: var(--page-background-color, #000028);
+  background-attachment: fixed;
 }
 
 .header {
@@ -12,6 +13,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  align-items: start;
 }
 
 .cover {
@@ -150,9 +152,7 @@
   inline-size: 100%;
 }
 
-.header {
-  align-items: start;
-}
+
 
 .header__theme-menu {
   justify-self: end;
