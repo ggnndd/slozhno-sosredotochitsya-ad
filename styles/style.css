@@ -4,6 +4,7 @@
   font-size: 18px;
   line-height: 23.4px;
   background-color: var(--page-background-color, #000028);
+  background-attachment: fixed;
 }
 
 .header {
@@ -12,6 +13,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  align-items: start;
 }
 
 .cover {
@@ -150,9 +152,7 @@
   inline-size: 100%;
 }
 
-.header {
-  align-items: start;
-}
+
 
 .header__theme-menu {
   justify-self: end;
@@ -275,10 +275,6 @@
 }
 
 @media (width >= 1024px) {
-  .page-title {
-    text-shadow: 4px 4px 0 var(--color-purple-2, #ff0070);
-  }
-
   .section {
     column-gap: 30px;
   }
